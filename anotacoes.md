@@ -138,4 +138,8 @@ Array.prototype.filter = function(funcao) {
 }
 ```
 
-## ... 
+## Dicas que podem ti dar ideias pra fazer códigos
+
+- https://www.amazon.com.br/Domain-Driven-Design-Eric-Evans/dp/8550800651?tag=goog0ef-20&smid=A1X6I9A8LS2X8V&ascsubtag=go_1494986073_58431735035_285514469186_aud-519888259198:pla-566080525912_c_
+- https://www.amazon.com.br/Implementando-Domain-Driven-design-Vernon/dp/8576089521?tag=goog0ef-20&smid=A1ZZFT5FULY4LN&ascsubtag=go_726685122_54292137521_242594579893_aud-519888259198:pla-432734982426_c_
+- https://martinfowler.com/articles/201803-refactoring-2nd-ed.html
