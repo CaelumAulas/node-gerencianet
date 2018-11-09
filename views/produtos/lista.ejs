@@ -1,0 +1,30 @@
+<% include ../includes/header.ejs %>
+
+    <!-- FINAL NAV -->
+    <div>
+        <div class ="container min-container">
+            <h2 class="basic-title">Listagem de livros</h2>
+            <div class="well">
+                <table class="table table-condensed table-bordered table-striped table-hover">
+                    <thead>
+                    <tr>
+                        <td><a href="">Título</a></td>
+                        <td><a href="">Preço</a></td>
+                        <td><a href="">Descrição</a></td>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <% for(produto of produtos) { %>
+                        <tr>
+                            <td><%= produto.titulo %></td>
+                            <td><%= produto.preco %></td>
+                            <td><%= produto.descricao %></td>
+                        </tr>
+                        <% } %>
+                    </tbody>
+                </table>
+                <a href="/produtos/form" class="btn btn-success"><span class="glyphicon glyphicon-plus-sign"></span> Novo livro</a>
+            </div>
+        </div>
+    </div>
+<% include ../includes/footer.ejs %>
